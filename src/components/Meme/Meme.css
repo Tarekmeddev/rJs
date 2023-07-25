@@ -1,0 +1,30 @@
+.meme {
+  margin: 20px auto;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.meme img {
+  display: block;
+  max-width: 100%;
+  height: 500px;
+}
+.img--box {
+  margin: 0 auto;
+  position: relative;
+  width: fit-content;
+}
+.img--box > p {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  font-weight: bold;
+  position: absolute;
+  left: 20%;
+}
+.img--box > p.top--text {
+  top: 10%;
+}
+.img--box p.bottom--text {
+  bottom: 10%;
+}

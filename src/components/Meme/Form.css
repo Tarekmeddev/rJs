@@ -1,0 +1,40 @@
+.form {
+  background-color: rgb(185, 223, 255);
+  padding: 20px;
+  margin-top: 50px;
+}
+.input--box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.input--box input {
+  width: 50%;
+  height: 50px;
+  text-indent: 10px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #00aeff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn img {
+  max-width: 40px;
+}
